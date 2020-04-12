@@ -166,9 +166,21 @@ nav .enlaces a:hover{
   text-align: center;
 }
 
-.textos>h1{font-size:80px;;}
+.textos>h1{
+	font-size:80px;
+	font-weight: 350;
+	color: #FFF;
+	text-shadow: -2px 2px #000;
+	;}
 
-.textos>h2{font-size: 30px; font-weight: 300;}
+.textos>h2{
+	font-size: 65px;
+	font-weight: 350;
+	font-family: 'Cookie', cursive;
+	color: #FFF;
+	text-shadow: -2px 2px #000;
+  
+}
 
 /* Main */
 
@@ -208,8 +220,12 @@ nav .enlaces a:hover{
   margin-top: var(--espacios);
   width: 100px;
   height: 2px;
-  background: var(--color1);
+background: var(--color1);
   margin-bottom: var(--espacios-contenido);
+}
+
+.after p{
+	color: #FFF;
 }
 
 .card{
