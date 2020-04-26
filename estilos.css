@@ -25,13 +25,13 @@ body {
 /* The progress container (grey background) */
 .progress-container {
   width: 100%;
-  height: 4px;
+  height: 2px;
   background: #ccc;
 }
 
 /* The progress bar (scroll indicator) */
 .progress-bar {
-  height: 4px;
+  height: 2px;
   background: #fd7a00;
   width: 0%;
 }
